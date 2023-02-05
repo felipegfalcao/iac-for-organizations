@@ -6,7 +6,7 @@ locals {
   aws_region  = local.region_vars.locals.aws_region
 }
 
-prevent_destroy = true
+prevent_destroy = false
 
 include {
   path = find_in_parent_folders()
